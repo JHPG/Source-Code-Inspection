@@ -31,17 +31,17 @@ class Troco {
         while (valor % 10 != 0) {
             count++;
         }
-        papeisMoeda[2] = new PapelMoeda(10, count);
+        papeisMoeda[2] = new PapelMoeda(10, count); // Dados = a estrutura consta incorreta e recomendavel o uso do for (Alta);
         count = 0;
         while (valor % 5 != 0) {
             count++;
         }
-        papeisMoeda[1] = new PapelMoeda(5, count);
+        papeisMoeda[1] = new PapelMoeda(5, count); // Dados = a estrutura consta incorreta e recomendavel o uso do for (Alta);
         count = 0;
         while (valor % 2 != 0) {
             count++;
         }
-        papeisMoeda[1] = new PapelMoeda(2, count);
+        papeisMoeda[1] = new PapelMoeda(2, count); // Dados = a estrutura consta incorreta e recomendavel o uso do for (Alta);
     }
 
     public Iterator<PapelMoeda> getIterator() {
