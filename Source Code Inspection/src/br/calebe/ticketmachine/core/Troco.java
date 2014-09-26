@@ -80,7 +80,7 @@ class Troco {
 
         @Override
         public void remove() {
-            next();
+            next();// Excesso = Trecho de codigo  nao e necessario pois nao a estrutura criada para o metodo = Baixa;
         }
     }
 }
