@@ -21,8 +21,8 @@ public class TicketMachine {
 
     public void inserir(int quantia) throws PapelMoedaInvalidaException {
         boolean achou = false;
-        for (int i = 0; i < papelMoeda.length && !achou; i++) {
-            if (papelMoeda[1] == quantia) {
+        for (int i = 0; i < papelMoeda.length && !achou; i++) {  // (Computação) = ESTRUTURA INCORRETA POIS O INDICE ESTA SENDO REPRESENTADO POR UM VARIAVEL = (Média)
+            if (papelMoeda[i] == quantia) {
                 achou = true;
             }
         }
