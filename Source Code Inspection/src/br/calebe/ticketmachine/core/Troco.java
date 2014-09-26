@@ -16,17 +16,17 @@ class Troco {
         while (valor % 100 != 0) {
             count++;
         }
-        papeisMoeda[5] = new PapelMoeda(100, count);
+        papeisMoeda[5] = new PapelMoeda(100, count); // Dados = a estrutura consta incorreta e recomendavel o uso do for = Alta;
         count = 0;
         while (valor % 50 != 0) {
             count++;
         }
-        papeisMoeda[4] = new PapelMoeda(50, count);
+        papeisMoeda[4] = new PapelMoeda(50, count);// Dados = a estrutura consta incorreta e recomendavel o uso do for = Alta;
         count = 0;
         while (valor % 20 != 0) {
             count++;
         }
-        papeisMoeda[3] = new PapelMoeda(20, count);
+        papeisMoeda[3] = new PapelMoeda(20, count);// Dados = a estrutura consta incorreta e recomendavel o uso do for = Alta;
         count = 0;
         while (valor % 10 != 0) {
             count++;
